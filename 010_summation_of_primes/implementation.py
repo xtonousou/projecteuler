@@ -1,6 +1,5 @@
 #!/usr/bin/env python2
 
-
 from math import sqrt
 from itertools import count, islice
 
@@ -15,6 +14,5 @@ def FindSumOfPrimesUnder(limit):
         if IsPrime(num):
             s += num
     return s
-
 
 print FindSumOfPrimesUnder(2000000)
